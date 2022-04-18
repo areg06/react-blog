@@ -1,0 +1,134 @@
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body{
+  background-color: #222423 !important;
+}
+
+.logo{
+  width: 7%;
+}
+
+@font-face
+{
+font-family: Armeniann;
+  src: url('./fonts/Saturn-Regular.ttf') format('ttf');
+  src: url('./fonts/Saturn_additional-Regular.ttf') format('ttf');
+font-family: english;
+  src: url('./fonts/Mont.otf') format('oft');
+     
+}
+
+.sa{
+  font-family: Armeniann;
+}
+
+.blog{
+  font-family: english;
+}
+
+input, input:focus, button:focus{
+  outline: none !important;
+  border: none !important;
+}
+
+.logo_text{
+  color: white;
+  font-size: 200%;
+}
+
+
+
+.post{
+  box-shadow: black 0px 2px 38px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.searchbar{
+  padding: 10%;
+  height: 15%;
+}
+
+.searchbox{
+  border-radius: 25px;
+  box-shadow: none;
+  transition: 0.8s;
+}  
+
+.searchbox:focus{
+  box-shadow: 0px 0px 40px #ffc107;
+}
+
+.submitbtn{
+  position: absolute;
+  border-radius: 90%;
+  width: 40px;
+  margin-right: -48% !important;
+}
+
+.btn-warning, .btn-warning.focus, .btn-warning:focus {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: 	#FFCE07;
+}
+
+.searchico{
+  color: white;
+}
+
+.title{
+  color: white;
+  background-color: rgba(51, 51, 51, 0.39);
+  padding: 11px !important;
+  text-align: center;
+  font-family: Armeniann;
+  transition-duration: 1s;
+}
+
+.post:hover .title {
+  font-size: 22px;
+  display: block !important;
+  margin-top: 0px !important;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.39);
+  padding: 11px !important;
+  height: 100%;
+  text-align: start;
+}
+
+.post:hover .title .enterDate{
+  display: block !important;
+  color: white;
+  margin-right: 100% !important;
+  font-size: 13px;
+  font-family: Armeniann;
+  font-weight: bold;
+}
+
+.post:hover .sametitle{
+  width: 60% !important;
+  margin-top: 50% !important;
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 600px){
+  
+}
+
+.category{
+  width: auto !important;
+  padding: 0px 10px !important;
+  background-color: #FFCE07 !important;
+  color: white !important;
+  border-radius: 35px !important;
+  font-size: 13px;
+
+}
